@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">        
+    <title>Claims</title>
+</head>
+<body class="has-background-grey-lighter">
+
+    <p id="decentralized_address" style="text-align:center;font-family:verdana;font-size:160%;color:red">address is:  </p>
+    <div class="columns is-centered">
+        <div class="column is-half">
+            <button class="button" onclick="ListClaims()"> List Claims</button>
+        </div>
+    </div>
+
+
+
+    <div id = "claim_list" >
+    </div>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
+</html>
